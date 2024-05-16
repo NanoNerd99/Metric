@@ -7,6 +7,8 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
+import dash from '../../public/dash.jpg'
+import dash_dark from '../../public/dash-dark.jpg'
 
 export default function Hero() {
     return (
@@ -102,8 +104,8 @@ export default function Hero() {
                         width: '100%',
                         backgroundImage:
                             theme.palette.mode === 'light'
-                                ? 'url("/public/dash.jpg")'
-                                : 'url("/public/dash-dark.jpg")',
+                                ? `url(${dash})`
+                                : `url(${dash_dark})`,
                         backgroundSize: 'cover',
                         borderRadius: '10px',
                         outline: '1px solid',

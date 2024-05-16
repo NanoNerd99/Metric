@@ -7,6 +7,7 @@ import Link from '@mui/material/Link';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
+import logo from '../../public/logo.png'
 
 import FacebookIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -60,9 +61,7 @@ export default function Footer() {
                     <Box sx={{width: {xs: '100%', sm: '60%'}}}>
                         <Box sx={{ml: '-15px'}}>
                             <img
-                                src={
-                                    '/public/logo.png'
-                                }
+                                src={logo}
                                 style={logoStyle}
                                 alt="logo of Metric"
                             />

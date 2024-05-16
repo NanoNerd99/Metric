@@ -11,6 +11,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Drawer from '@mui/material/Drawer';
 import MenuIcon from '@mui/icons-material/Menu';
 import ToggleColorMode from './ToggleColorMode';
+import logo from '../../public/logo.png'
 
 const logoStyle = {
     width: '50px',
@@ -90,9 +91,7 @@ function AppAppBar({mode, toggleColorMode}: AppAppBarProps) {
                             }}
                         >
                             <img
-                                src={
-                                    '/public/logo.png'
-                                }
+                                src={logo}
                                 style={logoStyle}
                                 alt="logo of Metric"
                             />
